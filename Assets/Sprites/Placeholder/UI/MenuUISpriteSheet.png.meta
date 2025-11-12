@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 41b5769d5fbba71459bbfb028ba12ea5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6254266335709642446
+    second: MenuUISpriteSheet_0
+  - first:
+      213: 993082304997718932
+    second: MenuUISpriteSheet_1
+  - first:
+      213: 8617375696991928383
+    second: MenuUISpriteSheet_2
+  - first:
+      213: -7472688382105172248
+    second: MenuUISpriteSheet_3
+  - first:
+      213: 3976577545337623986
+    second: MenuUISpriteSheet_4
+  - first:
+      213: 7601096024350947708
+    second: MenuUISpriteSheet_5
+  - first:
+      213: -776495900990671072
+    second: MenuUISpriteSheet_6
+  - first:
+      213: -5678301672091462194
+    second: MenuUISpriteSheet_7
+  - first:
+      213: 52979308799805767
+    second: MenuUISpriteSheet_8
+  - first:
+      213: 3747720939925620922
+    second: MenuUISpriteSheet_9
+  - first:
+      213: -8894630792684593809
+    second: MenuUISpriteSheet_10
+  - first:
+      213: 4421714955745554472
+    second: MenuUISpriteSheet_11
+  - first:
+      213: 4845287499839986394
+    second: MenuUISpriteSheet_12
+  - first:
+      213: -9016984617340938508
+    second: MenuUISpriteSheet_13
+  - first:
+      213: 6012227407557482026
+    second: MenuUISpriteSheet_14
+  - first:
+      213: -8783943981828627654
+    second: MenuUISpriteSheet_15
+  - first:
+      213: 4534886176902565527
+    second: MenuUISpriteSheet_16
+  - first:
+      213: -7955483074908212593
+    second: MenuUISpriteSheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 141
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece38a6881e9bc650800000000000000
+      internalID: 6254266335709642446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 141
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b7d16481328cd00800000000000000
+      internalID: 993082304997718932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 141
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30c9432a81179770800000000000000
+      internalID: 8617375696991928383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 141
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6ce6b228dab4890800000000000000
+      internalID: -7472688382105172248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 141
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5d4ab6534af2730800000000000000
+      internalID: 3976577545337623986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 141
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c797213df848c7960800000000000000
+      internalID: 7601096024350947708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 73
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02777e397155935f0800000000000000
+      internalID: -776495900990671072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 73
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec55b73d6be9231b0800000000000000
+      internalID: -5678301672091462194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 73
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749457196683cb000800000000000000
+      internalID: 52979308799805767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 73
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab84f8da654920430800000000000000
+      internalID: 3747720939925620922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 73
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d98c97b6cef8480800000000000000
+      internalID: -8894630792684593809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 73
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820fe3333561d5d30800000000000000
+      internalID: 4421714955745554472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada5a964f4bed3340800000000000000
+      internalID: 4845287499839986394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 5
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f65b3ab34c3dd280800000000000000
+      internalID: -9016984617340938508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 5
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26d45819f8bf6350800000000000000
+      internalID: 6012227407557482026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 5
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33ac24ec79291680800000000000000
+      internalID: -8783943981828627654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 5
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e4b1773f62fee30800000000000000
+      internalID: 4534886176902565527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuUISpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 5
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82b6771b42789190800000000000000
+      internalID: -7955483074908212593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MenuUISpriteSheet_0: 6254266335709642446
+      MenuUISpriteSheet_1: 993082304997718932
+      MenuUISpriteSheet_10: -8894630792684593809
+      MenuUISpriteSheet_11: 4421714955745554472
+      MenuUISpriteSheet_12: 4845287499839986394
+      MenuUISpriteSheet_13: -9016984617340938508
+      MenuUISpriteSheet_14: 6012227407557482026
+      MenuUISpriteSheet_15: -8783943981828627654
+      MenuUISpriteSheet_16: 4534886176902565527
+      MenuUISpriteSheet_17: -7955483074908212593
+      MenuUISpriteSheet_2: 8617375696991928383
+      MenuUISpriteSheet_3: -7472688382105172248
+      MenuUISpriteSheet_4: 3976577545337623986
+      MenuUISpriteSheet_5: 7601096024350947708
+      MenuUISpriteSheet_6: -776495900990671072
+      MenuUISpriteSheet_7: -5678301672091462194
+      MenuUISpriteSheet_8: 52979308799805767
+      MenuUISpriteSheet_9: 3747720939925620922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
