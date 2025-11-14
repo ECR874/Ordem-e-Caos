@@ -6,10 +6,15 @@ public class MainMenuManager : MonoBehaviour
     public void NewGame()
     {
         SceneManager.LoadScene("Waypoint");
+        Time.timeScale = 1f;
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Apllication.Quit();
+        #endif
     }
 }
