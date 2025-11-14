@@ -87,4 +87,9 @@ public class UIManager : MonoBehaviour
                 Apllication.Quit();
             #endif
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
