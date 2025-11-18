@@ -67,4 +67,9 @@ public class Tower : MonoBehaviour
             projectile.GetComponent<SunProjectile>().Shoot(data, _shootDirection);
         }
     }
+
+    private void HandleEnemyDestroid(Enemy enemy)
+    {
+        _enemiesInRange.Remove(enemy);
+    }
 }

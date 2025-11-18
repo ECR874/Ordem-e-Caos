@@ -5,8 +5,7 @@ public class SunProjectile : MonoBehaviour
     private TowerData _data;
     private Vector3 _shootDirection;
     private float _projectileDuration;
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (_projectileDuration <= 0)
@@ -19,6 +18,9 @@ public class SunProjectile : MonoBehaviour
             transform.position += new Vector3(_shootDirection.x, _shootDirection.y) * _data.projectileSpeed * Time.deltaTime;
         }
     }
+    
+    
+    
 
     public void Shoot(TowerData data, Vector3 shootDirection)
     {

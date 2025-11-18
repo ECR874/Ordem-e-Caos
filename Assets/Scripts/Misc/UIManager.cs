@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button PauseButton;
     [SerializeField] private TMP_Text LivesText;
     [SerializeField] private TMP_Text WavesText;
+    [SerializeField] private TMP_Text ResourcesText;
     [SerializeField] private GameObject GameOverPanel;
      [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip WaveBeep;
@@ -19,12 +20,14 @@ public class UIManager : MonoBehaviour
     {
         Spawner.OnWaveChanged += UpdateWaveText;
         GameManager.OnLivesChanged += UpdateLivesText;
+        GameManager.OnResourcesChanged += UpdateResourcesText;
     }
 
     private void OnDisable()
     {
         Spawner.OnWaveChanged -= UpdateWaveText;
         GameManager.OnLivesChanged -= UpdateLivesText;
+        GameManager.OnResourcesChanged -= UpdateResourcesText;
     }
 
     private void UpdateLivesText(int currentLives)
@@ -42,6 +45,11 @@ public class UIManager : MonoBehaviour
         WavesText.text = $"wave: {currentWave + 1}";
         AS.PlayOneShot(WaveBeep);
         AS.Play();
+    }
+
+    private void UpdateResourcesText(int currentResources)
+    {
+        ResourcesText.text = $"energy of creation: {currentResources}";
     }
 
     public void PauseGame()

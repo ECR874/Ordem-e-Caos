@@ -4,7 +4,10 @@ using System;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private EnemyData data;
+    public EnemyData Data => data;
     public static event Action<EnemyData> OnEnemyReachedEnd;
+    public static event Action<Enemy> OnEnemyDestroyed;
+    
     private Trial _currentTrial;
     
     private int _currentWaypoint;  
