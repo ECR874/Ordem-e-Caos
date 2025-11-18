@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     
     private int _currentWaypoint;  
     private Vector3 _targetPosition;
+    private float _lives;
     
     void Awake()
     {
@@ -21,6 +22,7 @@ public class Enemy : MonoBehaviour
     {
         _currentWaypoint = 0;
         _targetPosition = _currentTrial.GetPosition(_currentWaypoint);
+        _lives = data.life;
     }
     
     void Update() 
@@ -40,6 +42,18 @@ public class Enemy : MonoBehaviour
                 OnEnemyReachedEnd?.Invoke(data);
                 gameObject.SetActive(false);
             }
+        }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        _lives -= damage;
+        _lives = Math.Max(_lives, 0);
+        
+        if (_lives <= 0)
+        {
+            OnEnemyDestroyed?.Invoke(this);
+            gameObject.SetActive(false);
         }
     }
 }   

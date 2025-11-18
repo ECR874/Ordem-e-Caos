@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Enemy_Antimatter
   m_EditorClassIdentifier: 
   life: 3
-  speed: 3
+  speed: 2
   damage: 1
   resourceReward: 1

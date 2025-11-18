@@ -38,12 +38,14 @@ public class Spawner : MonoBehaviour
 
     private void OnEnable()
     {
-        Enemy.OnEnemyReachedEnd += EnemyGoToEnd;
+        Enemy.OnEnemyReachedEnd += HandleEnemyReachedEnd;
+        Enemy.OnEnemyDestroyed += HandleEnemyDestroyed;
     }
     
     private void OnDisable()
     {
-        Enemy.OnEnemyReachedEnd -= EnemyGoToEnd;
+        Enemy.OnEnemyReachedEnd -= HandleEnemyReachedEnd;
+        Enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
     }
 
     private void Start()
@@ -93,7 +95,12 @@ public class Spawner : MonoBehaviour
         }                                                               
     }
 
-    private void EnemyGoToEnd(EnemyData data)
+    private void HandleEnemyReachedEnd(EnemyData data)
+    {
+        _enemiesRemoved++;
+    }
+    
+    private void HandleEnemyDestroyed(Enemy enemy)
     {
         _enemiesRemoved++;
     }
