@@ -1,16 +1,33 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
 {
-    private int _lives = 14;
+    public static GameManager Instance { get; private set; }
+    private int _lives = 1;
     private int _resources = 0;
     public static event Action<int> OnLivesChanged;
     public static event Action<int> OnResourcesChanged;
     
     [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip Player_Hurt_SFX;
+
+    public float _gameSpeed = 1f;
+    public float GameSpeed => _gameSpeed;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
 
     private void OnEnable()
     {
@@ -47,5 +64,11 @@ public class GameManager : MonoBehaviour
     {
         _resources += amount;
         OnResourcesChanged?.Invoke(_resources);
+    }
+
+    public void SetGameSpeed(float newSpeed)
+    {
+        _gameSpeed = newSpeed;
+        Time.timeScale = _gameSpeed;
     }
 }

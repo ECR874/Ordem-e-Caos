@@ -12,9 +12,22 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text WavesText;
     [SerializeField] private TMP_Text ResourcesText;
     [SerializeField] private GameObject GameOverPanel;
+    [SerializeField] private GameObject ResourcesPanel;
      [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip WaveBeep;
     private bool _isPaused = false;
+
+    [SerializeField] private GameObject SpeedButtonsPanel;
+    [SerializeField] private Button speed1Button;
+    [SerializeField] private Button speed2Button;
+    [SerializeField] private Button speed3Button;
+
+    private void Start()
+    {
+        speed1Button.onClick.AddListener(() => SetGameSpeed(0.2f));
+        speed2Button.onClick.AddListener(() => SetGameSpeed(1f));
+        speed3Button.onClick.AddListener(() => SetGameSpeed(2f));
+    }
 
     private void OnEnable()
     {
@@ -58,25 +71,31 @@ public class UIManager : MonoBehaviour
             PauseButton.enabled = true;
             PauseButton.interactable = true;
             PB.SetActive(true);
+            SpeedButtonsPanel.SetActive(true);
             PausePanel.SetActive(false);
+            ResourcesPanel.SetActive(true);
             _isPaused = false;
             Time.timeScale = 1f;
         }
         else
         {
+            Time.timeScale = 0f;
             PauseButton.enabled = false;
             PauseButton.interactable = false;
             PB.SetActive(false);
+            SpeedButtonsPanel.SetActive(false);
             PausePanel.SetActive(true);
+            ResourcesPanel.SetActive(false);
             _isPaused = true;
-            Time.timeScale = 0f;
         }
     }
 
     private void GameOver()
     {
-        PB.SetActive(false);
         Time.timeScale = 0f;
+        PB.SetActive(false);
+        SpeedButtonsPanel.SetActive(false);
+        ResourcesPanel.SetActive(false);
         GameOverPanel.SetActive(true);
     }
 
@@ -99,5 +118,11 @@ public class UIManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+
+    private void SetGameSpeed(float time)
+    {
+        GameManager.Instance.SetGameSpeed(time);
     }
 }
