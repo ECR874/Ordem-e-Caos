@@ -13,16 +13,22 @@ public class Enemy : MonoBehaviour
     private int _currentWaypoint;  
     private Vector3 _targetPosition;
     private float _lives;
+
+    [SerializeField] private Transform healthBar;
+    private Vector3 _healthBarPosition;
     
     void Awake()
     {
         _currentTrial = GameObject.Find("Trial1").GetComponent<Trial>();
-    }
+        _healthBarPosition = healthBar.localScale;
+
+}
     void OnEnable()
     {
         _currentWaypoint = 0;
         _targetPosition = _currentTrial.GetPosition(_currentWaypoint);
         _lives = data.life;
+        UpdateHealthBar();
     }
     
     void Update() 
@@ -49,11 +55,20 @@ public class Enemy : MonoBehaviour
     {
         _lives -= damage;
         _lives = Math.Max(_lives, 0);
+        UpdateHealthBar();
         
         if (_lives <= 0)
         {
             OnEnemyDestroyed?.Invoke(this);
             gameObject.SetActive(false);
         }
+    }
+
+    private void UpdateHealthBar()
+    {
+        float healthPercent = _lives / data.life;
+        Vector3 scale = _healthBarPosition;
+        scale.x = _healthBarPosition.x * healthPercent;
+        healthBar.localScale = scale;
     }
 }   
