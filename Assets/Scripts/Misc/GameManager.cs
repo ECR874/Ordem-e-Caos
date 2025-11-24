@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    private int _lives = 1;
+    private int _lives = 19;
     private int _resources = 0;
     public static event Action<int> OnLivesChanged;
     public static event Action<int> OnResourcesChanged;

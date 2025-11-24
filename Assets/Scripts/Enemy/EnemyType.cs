@@ -4,5 +4,8 @@ public enum EnemyType
 {
     Antimatter,
     Conglomerate,
-    DeathsTouch
+    DeathsTouch,
+    Legion,
+    Remnant,
+    VoidHound,
 }
