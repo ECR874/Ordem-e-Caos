@@ -75,7 +75,7 @@ public class UIManager : MonoBehaviour
             PausePanel.SetActive(false);
             ResourcesPanel.SetActive(true);
             _isPaused = false;
-            Time.timeScale = 1f;
+            Time.timeScale = GameManager.Instance._gameSpeed;
         }
         else
         {
