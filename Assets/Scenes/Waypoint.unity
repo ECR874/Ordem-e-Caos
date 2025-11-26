@@ -3866,9 +3866,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - {fileID: 11400000, guid: c387f9be5a95a4b48b54070488a35ccd, type: 2}
-  - {fileID: 11400000, guid: 470430a5a883be94fb0d8205ab3105da, type: 2}
-  - {fileID: 11400000, guid: 4f8af53eb0a57e1468233fb00ab89c82, type: 2}
   - {fileID: 11400000, guid: ebf0a9ad79723bb4bad02f8d16ddcf17, type: 2}
   antimatterPool: {fileID: 196387434}
   conglomeratePool: {fileID: 1411068115}
