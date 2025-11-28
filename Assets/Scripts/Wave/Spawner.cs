@@ -6,6 +6,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public static event Action<int> OnWaveChanged;
+    public static event Action OnMissionComplete;
 
     [SerializeField] private WaveData[] waves;
     private int _currentWaveIndex = 0;
@@ -117,6 +118,11 @@ public class Spawner : MonoBehaviour
             _waveCooldown -= Time.deltaTime;
             if (_waveCooldown <= 0)
             {
+                if (_waveCounter + 1 >= LevelManager.Instance.CurrentLevel.wavesToWin)
+                {
+                    OnMissionComplete?.Invoke();
+                    return;
+                }
                 _currentWaveIndex = (_currentWaveIndex + 1) % waves.Length;
                 _waveCounter++;
                 OnWaveChanged?.Invoke(_waveCounter);

@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text WavesText;
     [SerializeField] private TMP_Text ResourcesText;
     [SerializeField] private GameObject GameOverPanel;
+    [SerializeField] private GameObject missionCompletePanel;
     [SerializeField] private GameObject ResourcesPanel;
      [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip WaveBeep;
@@ -34,6 +35,7 @@ public class UIManager : MonoBehaviour
         Spawner.OnWaveChanged += UpdateWaveText;
         GameManager.OnLivesChanged += UpdateLivesText;
         GameManager.OnResourcesChanged += UpdateResourcesText;
+        Spawner.OnMissionComplete += ShowMissionComplete;
     }
 
     private void OnDisable()
@@ -41,6 +43,7 @@ public class UIManager : MonoBehaviour
         Spawner.OnWaveChanged -= UpdateWaveText;
         GameManager.OnLivesChanged -= UpdateLivesText;
         GameManager.OnResourcesChanged -= UpdateResourcesText;
+        Spawner.OnMissionComplete -= ShowMissionComplete;
     }
 
     private void UpdateLivesText(int currentLives)
@@ -55,7 +58,7 @@ public class UIManager : MonoBehaviour
 
     private void UpdateWaveText(int currentWave)
     {
-        WavesText.text = $"wave: {currentWave + 1}";
+        WavesText.text = $"cicle: {currentWave + 1}/20";
         AS.PlayOneShot(WaveBeep);
         AS.Play();
     }
@@ -101,9 +104,7 @@ public class UIManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        Time.timeScale = 1f;
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.buildIndex);
+        LevelManager.Instance.LoadLevel(LevelManager.Instance.CurrentLevel);
     }
 
     public void QuitGame()
@@ -120,9 +121,14 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-
     private void SetGameSpeed(float time)
     {
         GameManager.Instance.SetGameSpeed(time);
+    }
+
+    private void ShowMissionComplete()
+    {
+        missionCompletePanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 }

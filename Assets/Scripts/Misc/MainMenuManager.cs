@@ -5,7 +5,7 @@ public class MainMenuManager : MonoBehaviour
 {
     public void NewGame()
     {
-        SceneManager.LoadScene("Waypoint");
+        LevelManager.Instance.LoadLevel(LevelManager.Instance.levels[0]);
         Time.timeScale = 1f;
     }
 

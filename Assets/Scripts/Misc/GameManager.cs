@@ -33,12 +33,14 @@ public class GameManager : MonoBehaviour
     {
         Enemy.OnEnemyReachedEnd += HandleEnemyReachedEnd;
         Enemy.OnEnemyDestroyed += HandleEnemyDestroyed;
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnDisable()
     {
         Enemy.OnEnemyReachedEnd -= HandleEnemyReachedEnd;
         Enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Start()
@@ -70,5 +72,20 @@ public class GameManager : MonoBehaviour
     {
         _gameSpeed = newSpeed;
         Time.timeScale = _gameSpeed;
+    }
+
+    public void ResetGameState()
+    {
+        _lives = LevelManager.Instance.CurrentLevel.startingLives;
+        OnLivesChanged?.Invoke(_lives);
+        _resources = LevelManager.Instance.CurrentLevel.startingResources;
+        OnResourcesChanged?.Invoke(_resources);
+        
+        SetGameSpeed(1f);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        ResetGameState();
     }
 }
