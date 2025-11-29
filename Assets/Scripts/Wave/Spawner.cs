@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    public static Spawner Instance;
+
     public static event Action<int> OnWaveChanged;
     public static event Action OnMissionComplete;
 
@@ -32,11 +34,13 @@ public class Spawner : MonoBehaviour
     private int _index;
     private float _spawnTimer;
     private float _groupDelay;
-    private int _totalEnemiesInWave;
+    public int _totalEnemiesInWave;
     
 
     private void Awake()
     {
+        Instance = this;
+
         _poolDictionary = new Dictionary<EnemyType, ObjectPooler>()
         {
             { EnemyType.Antimatter, antimatterPool },
@@ -174,14 +178,19 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    public void SpawnInternalEnemy(EnemyType enemyType, Vector3 pos)
+    public Enemy SpawnInternalEnemy(EnemyType enemyType, Vector3 pos)
     {
         if (_poolDictionary.TryGetValue(enemyType, out var pool))
         {
             GameObject obj = pool.GetPooledObject();
+
             obj.transform.position = pos;
             obj.SetActive(true);
+
+            return obj.GetComponent<Enemy>();
         }
+
+        return null;
     }
 
     private void HandleEnemyReachedEnd(EnemyData data)

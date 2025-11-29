@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    private Enemy myCharacter;
     [SerializeField] private EnemyType enemyToSpawn;
     [SerializeField] private int enemiesToSpawnOnDeath;
     
-    private Spawner internalSpawn;
 
     private void Awake()
     {
-        internalSpawn = FindObjectOfType<Spawner>();
+        myCharacter = GetComponent<Enemy>();
     }
     public void SpawnOnDeath(Vector3 deathPosition)
     {
         for (int i = 0; i < enemiesToSpawnOnDeath; i++)
         {
-            internalSpawn.SpawnInternalEnemy(enemyToSpawn, deathPosition);
+            var e = Spawner.Instance.SpawnInternalEnemy(enemyToSpawn, deathPosition);
+            e.CurrentWaypoint = myCharacter.CurrentWaypoint;
+            Spawner.Instance._totalEnemiesInWave++;
         }
     }
-
 }

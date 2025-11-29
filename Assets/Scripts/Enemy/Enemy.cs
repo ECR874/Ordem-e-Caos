@@ -9,8 +9,17 @@ public class Enemy : MonoBehaviour
     public static event Action<Enemy> OnEnemyDestroyed;
     
     private Trial _currentTrial;
-    
-    private int _currentWaypoint;
+
+    private int _currentW;
+    public int CurrentWaypoint 
+    {
+        get { return _currentW; }
+        set {
+            _currentW = value;
+            _targetPosition = _currentTrial.GetPosition(_currentW);
+        }
+    }
+
     private Vector3 _targetPosition;
     private float _lives;
     
@@ -33,8 +42,7 @@ public class Enemy : MonoBehaviour
 }
     void OnEnable()
     {
-        _currentWaypoint = 0;
-        _targetPosition = _currentTrial.GetPosition(_currentWaypoint);
+        CurrentWaypoint = 0;
         _lives = data.life;
         _currentSpeed = data.speed;
         UpdateHealthBar();
@@ -47,10 +55,9 @@ public class Enemy : MonoBehaviour
         float distance = Vector3.Distance(transform.position, _targetPosition);
         if (distance < 0.1f)
         {
-            if (_currentWaypoint < _currentTrial.Waypoints.Length - 1)
+            if (CurrentWaypoint < _currentTrial.Waypoints.Length - 1)
             {
-                _currentWaypoint++;
-                _targetPosition = _currentTrial.GetPosition(_currentWaypoint);
+                CurrentWaypoint++;
             }
             else
             {
