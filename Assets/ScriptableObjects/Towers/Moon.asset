@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 360542ee006f0ac469e0b1bbfc3b51f3, type: 3}
-  m_Name: Sun
+  m_Name: Moon
   m_EditorClassIdentifier: 
-  range: 4
-  shootInterval: 1
+  range: 2
+  shootInterval: 0.5
   projectileSpeed: 10
   projectileDuration: 2
-  damage: 2
+  damage: 1.5
