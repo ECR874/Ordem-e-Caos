@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: bf0742dc912c2764688b53dae103a70d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1097753813296491289
+    second: Mars_0
+  - first:
+      213: 7628862928659554603
+    second: Mars_1
+  - first:
+      213: 5229424815987201485
+    second: Mars_2
+  - first:
+      213: -2039563924606802162
+    second: Mars_3
+  - first:
+      213: 7802286033969463693
+    second: Mars_4
+  - first:
+      213: 4248874478141665750
+    second: Mars_5
+  - first:
+      213: 5798004747715435083
+    second: Mars_6
+  - first:
+      213: 4190826462391282545
+    second: Mars_7
+  - first:
+      213: 5574153334616441850
+    second: Mars_8
+  - first:
+      213: -7984005087863252379
+    second: Mars_9
+  - first:
+      213: 7798123290125527880
+    second: Mars_10
+  - first:
+      213: -6440914701698245153
+    second: Mars_11
+  - first:
+      213: 4021942191730160100
+    second: Mars_12
+  - first:
+      213: 7813752888095029386
+    second: Mars_13
+  - first:
+      213: -7844099675377994187
+    second: Mars_14
+  - first:
+      213: 1522637819913920077
+    second: Mars_15
+  - first:
+      213: 556471168787807333
+    second: Mars_16
+  - first:
+      213: -4496085361910315856
+    second: Mars_17
+  - first:
+      213: 1090358790327368683
+    second: Mars_18
+  - first:
+      213: -3382761069767464354
+    second: Mars_19
+  - first:
+      213: -3617106327938404347
+    second: Mars_20
+  - first:
+      213: -8243879174967782346
+    second: Mars_21
+  - first:
+      213: 3980717841363057510
+    second: Mars_22
+  - first:
+      213: 7269922989766480833
+    second: Mars_23
+  - first:
+      213: 4331543238321459901
+    second: Mars_24
+  - first:
+      213: -3174411940124454987
+    second: Mars_25
+  - first:
+      213: -8778475103709988576
+    second: Mars_26
+  - first:
+      213: -7533076167348891406
+    second: Mars_27
+  - first:
+      213: 5538092348246794409
+    second: Mars_28
+  - first:
+      213: -8396171171365564856
+    second: Mars_29
+  - first:
+      213: 5024355345185522909
+    second: Mars_30
+  - first:
+      213: 6802279411366679069
+    second: Mars_31
+  - first:
+      213: -2241200599465112282
+    second: Mars_32
+  - first:
+      213: -8801376064405769732
+    second: Mars_33
+  - first:
+      213: 8526513229282601522
+    second: Mars_34
+  - first:
+      213: 6660627905108522643
+    second: Mars_35
+  - first:
+      213: -6625749702702659534
+    second: Mars_36
+  - first:
+      213: -9217101441334155518
+    second: Mars_37
+  - first:
+      213: 3903948611306195604
+    second: Mars_38
+  - first:
+      213: -5526591893507181073
+    second: Mars_39
+  - first:
+      213: 5652264655820659134
+    second: Mars_40
+  - first:
+      213: 4400459400457159308
+    second: Mars_41
+  - first:
+      213: 8406876854750718946
+    second: Mars_42
+  - first:
+      213: -9185085913208207363
+    second: Mars_43
+  - first:
+      213: 4505156803876050845
+    second: Mars_44
+  - first:
+      213: 2996196409912701724
+    second: Mars_45
+  - first:
+      213: 2972187679542517976
+    second: Mars_46
+  - first:
+      213: 5663389985794361522
+    second: Mars_47
+  - first:
+      213: -2425395268196730300
+    second: Mars_48
+  - first:
+      213: 5505659054341299553
+    second: Mars_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mars_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4d1a319bef3c0f0800000000000000
+      internalID: -1097753813296491289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2126e60a6a2fd960800000000000000
+      internalID: 7628862928659554603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc59788d926a29840800000000000000
+      internalID: 5229424815987201485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e072c19aa6302b3e0800000000000000
+      internalID: -2039563924606802162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81cdb24fc9474c60800000000000000
+      internalID: 7802286033969463693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d17bdc83d807fa30800000000000000
+      internalID: 4248874478141665750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a5b915996a67050800000000000000
+      internalID: 5798004747715435083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ba32ea67ec82a30800000000000000
+      internalID: 4190826462391282545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af34f59bcee5b5d40800000000000000
+      internalID: 5574153334616441850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56adff47cad133190800000000000000
+      internalID: -7984005087863252379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84be1aee0df783c60800000000000000
+      internalID: 7798123290125527880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd5fa844364d96a0800000000000000
+      internalID: -6440914701698245153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_12
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e17b3d3d1fc0d730800000000000000
+      internalID: 4021942191730160100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_13
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8836994ad6007c60800000000000000
+      internalID: 7813752888095029386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_14
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5367652b7e8242390800000000000000
+      internalID: -7844099675377994187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_15
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e5b89a70f712510800000000000000
+      internalID: 1522637819913920077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_16
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cf757649bf8b700800000000000000
+      internalID: 556471168787807333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_17
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b480834f22ba91c0800000000000000
+      internalID: -4496085361910315856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_18
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebff27fa8bb12f00800000000000000
+      internalID: 1090358790327368683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a6d7ccab40e01d0800000000000000
+      internalID: -3382761069767464354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_20
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500f96085f47dcdc0800000000000000
+      internalID: -3617106327938404347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_21
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6341ecc719bd79d80800000000000000
+      internalID: -8243879174967782346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_22
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b318539c95e3730800000000000000
+      internalID: 3980717841363057510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_23
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c31a750174f3e460800000000000000
+      internalID: 7269922989766480833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_24
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2556130abbc1c30800000000000000
+      internalID: 4331543238321459901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_25
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf8f12c82932f3d0800000000000000
+      internalID: -3174411940124454987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_26
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02971cd47679c2680800000000000000
+      internalID: -8778475103709988576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_27
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f055334323257790800000000000000
+      internalID: -7533076167348891406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_28
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a02f8e06a14bdc40800000000000000
+      internalID: 5538092348246794409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_29
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e4161fdceca7b80800000000000000
+      internalID: -8396171171365564856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_30
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd44e17f0981ab540800000000000000
+      internalID: 5024355345185522909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_31
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12d679a51d866e50800000000000000
+      internalID: 6802279411366679069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_32
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d4d7edde7a5e0e0800000000000000
+      internalID: -2241200599465112282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_33
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1f772e91b3bd580800000000000000
+      internalID: -8801376064405769732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_34
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aee0c4b92445670800000000000000
+      internalID: 8526513229282601522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_35
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3963c094acd4f6c50800000000000000
+      internalID: 6660627905108522643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_36
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23802c700cb9c04a0800000000000000
+      internalID: -6625749702702659534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_37
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207698ac217461080800000000000000
+      internalID: -9217101441334155518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_38
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a0946f39c9d2630800000000000000
+      internalID: 3903948611306195604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_39
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe573f834f99d43b0800000000000000
+      internalID: -5526591893507181073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_40
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb99faae1c0e07e40800000000000000
+      internalID: 5652264655820659134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_41
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8207c49282911d30800000000000000
+      internalID: 4400459400457159308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_42
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebaed535f93ba470800000000000000
+      internalID: 8406876854750718946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_43
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7c7cfc605088080800000000000000
+      internalID: -9185085913208207363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_44
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9757786e38858e30800000000000000
+      internalID: 4505156803876050845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_45
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13b522a2c0a49920800000000000000
+      internalID: 2996196409912701724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_46
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0acec72f45f3920800000000000000
+      internalID: 2972187679542517976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_47
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b807c7af27689e40800000000000000
+      internalID: 5663389985794361522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_48
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a78379ad3475ed0800000000000000
+      internalID: -2425395268196730300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mars_49
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 15
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d1d6c5db7086c40800000000000000
+      internalID: 5505659054341299553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mars_0: -1097753813296491289
+      Mars_1: 7628862928659554603
+      Mars_10: 7798123290125527880
+      Mars_11: -6440914701698245153
+      Mars_12: 4021942191730160100
+      Mars_13: 7813752888095029386
+      Mars_14: -7844099675377994187
+      Mars_15: 1522637819913920077
+      Mars_16: 556471168787807333
+      Mars_17: -4496085361910315856
+      Mars_18: 1090358790327368683
+      Mars_19: -3382761069767464354
+      Mars_2: 5229424815987201485
+      Mars_20: -3617106327938404347
+      Mars_21: -8243879174967782346
+      Mars_22: 3980717841363057510
+      Mars_23: 7269922989766480833
+      Mars_24: 4331543238321459901
+      Mars_25: -3174411940124454987
+      Mars_26: -8778475103709988576
+      Mars_27: -7533076167348891406
+      Mars_28: 5538092348246794409
+      Mars_29: -8396171171365564856
+      Mars_3: -2039563924606802162
+      Mars_30: 5024355345185522909
+      Mars_31: 6802279411366679069
+      Mars_32: -2241200599465112282
+      Mars_33: -8801376064405769732
+      Mars_34: 8526513229282601522
+      Mars_35: 6660627905108522643
+      Mars_36: -6625749702702659534
+      Mars_37: -9217101441334155518
+      Mars_38: 3903948611306195604
+      Mars_39: -5526591893507181073
+      Mars_4: 7802286033969463693
+      Mars_40: 5652264655820659134
+      Mars_41: 4400459400457159308
+      Mars_42: 8406876854750718946
+      Mars_43: -9185085913208207363
+      Mars_44: 4505156803876050845
+      Mars_45: 2996196409912701724
+      Mars_46: 2972187679542517976
+      Mars_47: 5663389985794361522
+      Mars_48: -2425395268196730300
+      Mars_49: 5505659054341299553
+      Mars_5: 4248874478141665750
+      Mars_6: 5798004747715435083
+      Mars_7: 4190826462391282545
+      Mars_8: 5574153334616441850
+      Mars_9: -7984005087863252379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
