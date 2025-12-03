@@ -92,9 +92,6 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-    
-    
-
 
     private void UpdateHealthBar()
     {
@@ -103,4 +100,4 @@ public class Enemy : MonoBehaviour
         scale.x = _healthBarPosition.x * healthPercent;
         healthBar.localScale = scale;
     }
-}   
+} 

@@ -48,7 +48,7 @@ public class UIManager : MonoBehaviour
 
     private void UpdateLivesText(int currentLives)
     {
-        LivesText.text = $"health: {currentLives + 1}";
+        LivesText.text = $"health: {currentLives}";
 
         if (currentLives < 0)
         {
@@ -129,6 +129,25 @@ public class UIManager : MonoBehaviour
     private void ShowMissionComplete()
     {
         missionCompletePanel.SetActive(true);
+        SpeedButtonsPanel.SetActive(false);
+        ResourcesPanel.SetActive(false);
+        GameOverPanel.SetActive(false);
+        PauseButton.enabled = false;
+        PauseButton.interactable = false;
+        LivesText.enabled = false;
+        WavesText.enabled = false;
         Time.timeScale = 0f;
+    }
+    
+    public void GoToLevel2()
+    {
+        LevelManager.Instance.LoadLevel(LevelManager.Instance.levels[1]);
+
+    }
+    
+    public void GoToCredits()
+    {
+        SceneManager.LoadScene("Credits");
+
     }
 }

@@ -8,6 +8,10 @@ public class LevelManager : MonoBehaviour
     public LevelData[] levels;
     public LevelData CurrentLevel { get; private set; }
 
+    private int _initialLives;
+    private int _initialResources;
+    private int _initialWaves;
+    
     private void Awake()
     {
         if (Instance != null && Instance != this)

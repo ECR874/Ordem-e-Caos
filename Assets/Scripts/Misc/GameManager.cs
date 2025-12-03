@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-    private int _lives = 19;
-    private int _resources = 0;
+    private int _lives;
+    private int _resources;
     public static event Action<int> OnLivesChanged;
     public static event Action<int> OnResourcesChanged;
     
@@ -89,3 +89,4 @@ public class GameManager : MonoBehaviour
         ResetGameState();
     }
 }
+
