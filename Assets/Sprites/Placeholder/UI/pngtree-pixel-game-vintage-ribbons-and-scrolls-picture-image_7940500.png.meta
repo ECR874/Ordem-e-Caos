@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 5117447c38d22304e85af12c0a589912
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4593450780291272142
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_0
+  - first:
+      213: -8866719930507303934
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_1
+  - first:
+      213: -3380822726308589198
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_2
+  - first:
+      213: 72552982885304384
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_3
+  - first:
+      213: -8494368687920243075
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_4
+  - first:
+      213: -3724979084468546986
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_5
+  - first:
+      213: 3475032101191978247
+    second: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 692
+        width: 535
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd8084c5273fbf30800000000000000
+      internalID: 4593450780291272142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 28
+        width: 260
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2046c3b733513f480800000000000000
+      internalID: -8866719930507303934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 283
+        width: 535
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2711fcd84a7e411d0800000000000000
+      internalID: -3380822726308589198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_3
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 468
+        width: 205
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0480644bd82c10100800000000000000
+      internalID: 72552982885304384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 30
+        width: 399
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e1055fea0fd1a80800000000000000
+      internalID: -8494368687920243075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 72
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6521e7a22473e4cc0800000000000000
+      internalID: -3724979084468546986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 0
+        width: 469
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d80a6d84bc93030800000000000000
+      internalID: 3475032101191978247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 466
+        width: 260
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2732f6814a32604db161520286bcc69
+      internalID: 1219077270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 504
+        width: 593
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b542674db7540b43a9aa3c2e09eab47
+      internalID: 2099128835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 692
+        width: 404
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f4f3f91fa33f74b9e8eb05836eeccd
+      internalID: 293855706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_10
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 201
+        width: 289
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d87b8293635b9d4ab104e14e54ce279
+      internalID: 1676595444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bcbae8e9334471442991117913c9b326
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_0: 4593450780291272142
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_1: -8866719930507303934
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_10: 1676595444
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_2: -3380822726308589198
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_3: 72552982885304384
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_4: -8494368687920243075
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_5: -3724979084468546986
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_6: 3475032101191978247
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_7: 1219077270
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_8: 2099128835
+      pngtree-pixel-game-vintage-ribbons-and-scrolls-picture-image_7940500_9: 293855706
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
