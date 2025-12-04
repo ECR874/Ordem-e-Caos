@@ -145,11 +145,11 @@ Transform:
   m_GameObject: {fileID: 6149127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14772.959, y: 7871.645, z: -4206.7593}
-  m_LocalScale: {x: 45.779995, y: 45.779995, z: 45.779995}
+  m_LocalPosition: {x: 322.8546, y: 171.40508, z: -1.89077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 455021765}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6149129
 MonoBehaviour:
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21568629, g: 0.21568629, b: 0.21568629, a: 0}
+  m_Color: {r: 0.21568629, g: 0.21568629, b: 0, a: 0.7372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4959,7 +4959,6 @@ RectTransform:
   m_Children:
   - {fileID: 1731168496}
   - {fileID: 182467721}
-  - {fileID: 6149128}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10457,3 +10456,4 @@ SceneRoots:
   - {fileID: 423077324}
   - {fileID: 928038750}
   - {fileID: 692208585}
+  - {fileID: 6149128}

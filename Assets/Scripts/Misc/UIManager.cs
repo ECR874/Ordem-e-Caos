@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject GameOverPanel;
     [SerializeField] private GameObject missionCompletePanel;
     [SerializeField] private GameObject ResourcesPanel;
-     [SerializeField] public AudioSource AS;
+    [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip WaveBeep;
     private bool _isPaused = false;
 
