@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -24,6 +25,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TowerData[] towers;
     private List<GameObject> activeCards = new List<GameObject>();
     private Platform _currentPlatform;
+    [SerializeField] private GameObject noResourcesText;
     private bool _isPaused = false;
 
     [SerializeField] private GameObject SpeedButtonsPanel;
@@ -87,6 +89,7 @@ public class UIManager : MonoBehaviour
     public void ShowTowerPanel()
     {
         towerPanel.SetActive(true);
+        Platform.towerPanelOpen = true;
         GameManager.Instance.SetTimeScale(0f);
         PopulateTowerCards();
     }
@@ -94,6 +97,7 @@ public class UIManager : MonoBehaviour
     public void HideTowerPanel()
     {
         towerPanel.SetActive(false);
+        Platform.towerPanelOpen = false;
         GameManager.Instance.SetTimeScale(1f);
     }
 
@@ -200,7 +204,23 @@ public class UIManager : MonoBehaviour
 
     private void HandleTowerSelected(TowerData towerData)
     {
-        _currentPlatform.PlaceTower(towerData);
-        HideTowerPanel();  
+        if (GameManager.Instance.Resources >= towerData.cost)
+        {
+            GameManager.Instance.SpendResources(towerData.cost);
+            _currentPlatform.PlaceTower(towerData);
+        }
+        else
+        {
+            StartCoroutine(ShowNoResourcesMessage());
+        }
+        
+        HideTowerPanel(); 
+    }
+
+    private IEnumerator ShowNoResourcesMessage()
+    {
+        noResourcesText.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        noResourcesText.SetActive(false);
     }
 }
