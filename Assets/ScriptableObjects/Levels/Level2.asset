@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level2
   m_EditorClassIdentifier: 
   levelName: Level2
-  wavesToWin: 20
+  wavesToWin: 5
   startingResources: 300
   startingLives: 40
   backgroundMusic: {fileID: 0}

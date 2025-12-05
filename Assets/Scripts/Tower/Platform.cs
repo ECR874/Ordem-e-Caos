@@ -32,7 +32,8 @@ public class Platform : MonoBehaviour
 
     public void PlaceTower(TowerData data)
     {
-        Instantiate(data.prefab, transform.position, Quaternion.identity, transform);
+        GameObject tower = Instantiate(data.prefab, transform.position, Quaternion.identity, transform);
+        tower.transform.localScale = Vector3.one; 
     }
 
 }
