@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_invisible_normal_0: -6244403723492461875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -88,5 +88,9 @@ public class GameManager : MonoBehaviour
     {
         ResetGameState();
     }
+    public void SetTimeScale(float scale)
+    {
+        Time.timeScale = scale;
+    }
 }
 

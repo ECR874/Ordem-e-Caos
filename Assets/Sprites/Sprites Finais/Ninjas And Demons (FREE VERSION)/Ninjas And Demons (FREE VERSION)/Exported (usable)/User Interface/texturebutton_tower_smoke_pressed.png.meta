@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_tower_smoke_pressed_0: 1509099177067462489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_tower_gun_hover_0: 4185436742501217892
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

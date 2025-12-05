@@ -2,9 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
+
     [SerializeField] private GameObject PausePanel;
     [SerializeField] private GameObject PB;
     [SerializeField] private Button PauseButton;
@@ -16,6 +18,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject ResourcesPanel;
     [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip WaveBeep;
+    [SerializeField] private GameObject towerPanel;
+    [SerializeField] private GameObject towerCardPrefab;
+    [SerializeField] private Transform cardConatiner;
+    [SerializeField] private TowerData[] towers;
+    private List<GameObject> activeCards = new List<GameObject>();
+    private Platform _currentPlatform;
     private bool _isPaused = false;
 
     [SerializeField] private GameObject SpeedButtonsPanel;
@@ -36,6 +44,8 @@ public class UIManager : MonoBehaviour
         GameManager.OnLivesChanged += UpdateLivesText;
         GameManager.OnResourcesChanged += UpdateResourcesText;
         Spawner.OnMissionComplete += ShowMissionComplete;
+        Platform.OnPlatformClicked += HandlePlatformClick;
+        TowerCard.OnTowerSelected += HandleTowerSelected;
     }
 
     private void OnDisable()
@@ -44,6 +54,7 @@ public class UIManager : MonoBehaviour
         GameManager.OnLivesChanged -= UpdateLivesText;
         GameManager.OnResourcesChanged -= UpdateResourcesText;
         Spawner.OnMissionComplete -= ShowMissionComplete;
+        Platform.OnPlatformClicked -= HandlePlatformClick;
     }
 
     private void UpdateLivesText(int currentLives)
@@ -66,6 +77,24 @@ public class UIManager : MonoBehaviour
     private void UpdateResourcesText(int currentResources)
     {
         ResourcesText.text = $"energy of creation: {currentResources}";
+    }
+
+    private void HandlePlatformClick(Platform platform)
+    {
+        _currentPlatform = platform;
+        ShowTowerPanel();
+    }
+    public void ShowTowerPanel()
+    {
+        towerPanel.SetActive(true);
+        GameManager.Instance.SetTimeScale(0f);
+        PopulateTowerCards();
+    }
+
+    public void HideTowerPanel()
+    {
+        towerPanel.SetActive(false);
+        GameManager.Instance.SetTimeScale(1f);
     }
 
     public void PauseGame()
@@ -149,5 +178,29 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
 
+    }
+
+    private void PopulateTowerCards()
+    {
+        foreach (var card in activeCards)
+        {
+            Destroy(card);
+        }
+        activeCards.Clear();
+
+        foreach (var data in towers)
+        {
+            GameObject cardGameObject = Instantiate(towerCardPrefab, cardConatiner);
+            TowerCard card = cardGameObject.GetComponent<TowerCard>();
+            card.Initialize(data);
+            activeCards.Add(cardGameObject);
+        }
+        
+    }
+
+    private void HandleTowerSelected(TowerData towerData)
+    {
+        _currentPlatform.PlaceTower(towerData);
+        HideTowerPanel();  
     }
 }

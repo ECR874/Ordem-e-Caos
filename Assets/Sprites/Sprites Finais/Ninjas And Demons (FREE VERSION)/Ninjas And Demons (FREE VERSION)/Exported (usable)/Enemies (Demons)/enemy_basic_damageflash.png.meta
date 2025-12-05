@@ -722,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy_basic_damageflash_0: -4468828591695337643
+      enemy_basic_damageflash_1: 2077694928052169614
+      enemy_basic_damageflash_10: -398253284193205637
+      enemy_basic_damageflash_11: -4646832774169897479
+      enemy_basic_damageflash_12: -6946040139784967748
+      enemy_basic_damageflash_13: -3170483062746643935
+      enemy_basic_damageflash_14: -6693510562052654003
+      enemy_basic_damageflash_15: -7003757115181352222
+      enemy_basic_damageflash_16: -1014183451981828494
+      enemy_basic_damageflash_17: -2655710608732567640
+      enemy_basic_damageflash_18: 551970504776882532
+      enemy_basic_damageflash_19: -7331817924741262497
+      enemy_basic_damageflash_2: 8197114462219726482
+      enemy_basic_damageflash_20: 7504463260129299899
+      enemy_basic_damageflash_21: 4694864277159094439
+      enemy_basic_damageflash_22: -7184309817960182054
+      enemy_basic_damageflash_23: -7552951005239214780
+      enemy_basic_damageflash_3: -4517618184016553783
+      enemy_basic_damageflash_4: 4953045040828373266
+      enemy_basic_damageflash_5: -1605038770577771734
+      enemy_basic_damageflash_6: 170600100685695355
+      enemy_basic_damageflash_7: -4800587320251892103
+      enemy_basic_damageflash_8: 3799054241641876966
+      enemy_basic_damageflash_9: -1051701940372988843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

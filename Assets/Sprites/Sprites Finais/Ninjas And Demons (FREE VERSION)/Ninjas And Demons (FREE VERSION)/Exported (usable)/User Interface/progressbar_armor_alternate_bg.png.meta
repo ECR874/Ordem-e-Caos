@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      progressbar_armor_alternate_bg_0: 9087342291590758740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

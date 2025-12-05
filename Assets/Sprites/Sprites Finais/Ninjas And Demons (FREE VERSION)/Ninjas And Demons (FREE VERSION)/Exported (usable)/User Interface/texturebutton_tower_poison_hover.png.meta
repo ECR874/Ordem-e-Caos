@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_tower_poison_hover_0: -3956068967680385289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_teleporting_normal_0: -4324927388345785792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

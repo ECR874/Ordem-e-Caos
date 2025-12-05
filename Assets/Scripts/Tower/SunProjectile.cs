@@ -5,6 +5,11 @@ public class SunProjectile : MonoBehaviour
     private TowerData _data;
     private Vector3 _shootDirection;
     private float _projectileDuration;
+
+    void Start()
+    {
+        transform.localScale = Vector3.one * _data.projectileSize;
+    }
     
     void Update()
     {

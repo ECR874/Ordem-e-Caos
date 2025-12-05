@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_tower_gun_normal_0: -7009225668566970538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

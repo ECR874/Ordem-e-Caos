@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_exploding_pressed_0: -4166266905759463407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

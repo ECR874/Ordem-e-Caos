@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_armored_hover_0: -2010248863464096723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

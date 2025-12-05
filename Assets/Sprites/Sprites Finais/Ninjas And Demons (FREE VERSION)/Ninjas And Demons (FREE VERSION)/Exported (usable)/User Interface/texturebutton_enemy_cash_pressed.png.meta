@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_cash_pressed_0: 6600480398421417468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

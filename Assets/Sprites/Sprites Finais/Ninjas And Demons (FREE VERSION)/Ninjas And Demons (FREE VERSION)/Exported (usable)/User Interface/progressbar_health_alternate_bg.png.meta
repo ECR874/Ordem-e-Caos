@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      progressbar_health_alternate_bg_0: 1642981733545601329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

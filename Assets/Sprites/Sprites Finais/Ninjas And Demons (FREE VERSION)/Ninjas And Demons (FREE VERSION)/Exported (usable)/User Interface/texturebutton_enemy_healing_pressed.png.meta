@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_healing_pressed_0: -4855729479829298861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

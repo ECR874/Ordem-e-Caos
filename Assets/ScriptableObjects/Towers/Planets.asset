@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 360542ee006f0ac469e0b1bbfc3b51f3, type: 3}
-  m_Name: Earth
+  m_Name: Planets
   m_EditorClassIdentifier: 
-  range: 3.5
+  range: 5
   shootInterval: 1
   projectileSpeed: 12
   projectileDuration: 1
+  projectileSize: 3
   damage: 1
+  cost: 100
+  sprite: {fileID: -5962053462746621481, guid: edbf026d999a06741ba75b8ba6cef497, type: 3}
+  prefab: {fileID: 2623204922427729767, guid: ad04cf5421bdd764ea5e0c1371ca88eb, type: 3}

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      icon_playff_black_0: 5587513562575797361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

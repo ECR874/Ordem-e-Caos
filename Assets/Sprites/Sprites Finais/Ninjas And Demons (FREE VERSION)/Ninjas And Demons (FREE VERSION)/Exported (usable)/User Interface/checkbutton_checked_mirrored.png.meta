@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      checkbutton_checked_mirrored_0: 6219696824788004088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

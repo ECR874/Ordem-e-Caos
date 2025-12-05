@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      checkbutton_checked_disabled_mirrored_0: -5345454857386517506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

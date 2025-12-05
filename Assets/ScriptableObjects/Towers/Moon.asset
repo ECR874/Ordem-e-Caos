@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360542ee006f0ac469e0b1bbfc3b51f3, type: 3}
   m_Name: Moon
   m_EditorClassIdentifier: 
-  range: 2
+  range: 3.5
   shootInterval: 0.5
   projectileSpeed: 10
   projectileDuration: 2
-  damage: 1.5
+  projectileSize: 2
+  damage: 0.5
+  cost: 150
+  sprite: {fileID: 8475807453798674617, guid: 6b0198e0969f2df4995d8e74545facd0, type: 3}
+  prefab: {fileID: 109521220374981189, guid: e22ee78c7f9da7c4a8fdca903bcd615b, type: 3}

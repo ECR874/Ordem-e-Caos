@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      texturebutton_enemy_fast_hover_0: -6642817152203450792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

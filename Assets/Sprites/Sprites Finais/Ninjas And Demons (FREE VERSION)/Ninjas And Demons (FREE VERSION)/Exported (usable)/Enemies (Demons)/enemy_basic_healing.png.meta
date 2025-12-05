@@ -722,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy_basic_healing_0: 104336547754946285
+      enemy_basic_healing_1: 7029190216168510371
+      enemy_basic_healing_10: -6114724168160262309
+      enemy_basic_healing_11: -3757657335972997874
+      enemy_basic_healing_12: 2176446959173108314
+      enemy_basic_healing_13: -8344612025484554786
+      enemy_basic_healing_14: -921720049641392857
+      enemy_basic_healing_15: 1938790778681875222
+      enemy_basic_healing_16: 4129367129248282006
+      enemy_basic_healing_17: -2058940996176100106
+      enemy_basic_healing_18: -8121690690006242564
+      enemy_basic_healing_19: 6911867197094640524
+      enemy_basic_healing_2: 7186750897580882483
+      enemy_basic_healing_20: 9169061514260499314
+      enemy_basic_healing_21: 7578817526003397174
+      enemy_basic_healing_22: -1565751346304587927
+      enemy_basic_healing_23: -4350226850278761722
+      enemy_basic_healing_3: 3717692579063232372
+      enemy_basic_healing_4: 2634603507093319384
+      enemy_basic_healing_5: 5209773249085619659
+      enemy_basic_healing_6: 6283577264409824323
+      enemy_basic_healing_7: -2129436131807830399
+      enemy_basic_healing_8: 5623825405039342364
+      enemy_basic_healing_9: -3625025847014868500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
