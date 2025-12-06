@@ -93,23 +93,14 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = scale;
     }
-<<<<<<< Updated upstream
     
     public void SpendResources(int amount)
-=======
-
-    public void SpendResources (int amount)
->>>>>>> Stashed changes
     {
         if (_resources >= amount)
         {
             _resources -= amount;
             OnResourcesChanged?.Invoke(_resources);
         }
-<<<<<<< Updated upstream
     } 
-=======
-    }
->>>>>>> Stashed changes
 }
 
