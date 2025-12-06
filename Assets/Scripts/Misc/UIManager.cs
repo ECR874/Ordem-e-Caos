@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections.Generic;
+using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text LivesText;
     [SerializeField] private TMP_Text WavesText;
     [SerializeField] private TMP_Text ResourcesText;
+    [SerializeField] private GameObject noResourcesText;
     [SerializeField] private GameObject GameOverPanel;
     [SerializeField] private GameObject missionCompletePanel;
     [SerializeField] private GameObject ResourcesPanel;
@@ -213,6 +215,7 @@ public class UIManager : MonoBehaviour
         {
             StartCoroutine(ShowNoResourcesMessage());
         }
+<<<<<<< Updated upstream
         
         HideTowerPanel(); 
     }
@@ -222,5 +225,15 @@ public class UIManager : MonoBehaviour
         noResourcesText.SetActive(true);
         yield return new WaitForSeconds(3f);
         noResourcesText.SetActive(false);
+=======
+            HideTowerPanel();
+>>>>>>> Stashed changes
     }
+    private IEnumerator ShowNoResourcesMessage()
+    {
+        noResourcesText.SetActive(true);
+        yield return new WaitForSecondsRealtime(3f);
+        noResourcesText.SetActive(false);
+    }
+
 }

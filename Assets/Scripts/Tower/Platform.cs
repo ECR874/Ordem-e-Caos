@@ -6,7 +6,12 @@ public class Platform : MonoBehaviour
 {
     public static event Action<Platform> OnPlatformClicked;
     [SerializeField] private LayerMask platformLayerMask;
+<<<<<<< Updated upstream
     public static bool towerPanelOpen {get; set;} = false;
+=======
+    public static bool towerPanelOpen { get; set; } = false;
+
+>>>>>>> Stashed changes
 
     private void Update()
     {
