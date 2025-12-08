@@ -9,11 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02ca1284611ee454ab1d208c6dca547b, type: 3}
-  m_Name: Level1
+  m_Script: {fileID: 11500000, guid: 3e38d0fef853cf048a5930feed0786b9, type: 3}
+  m_Name: Wave1L2
   m_EditorClassIdentifier: 
-  levelName: Level1
-  wavesToWin: 10
-  startingResources: 300
-  startingLives: 4000
-  backgroundMusic: {fileID: 0}
+  groups:
+  - subGroups:
+    - enemyType: 0
+      count: 5
+    - enemyType: 0
+      count: 2
+    groupDelay: 2
+  spawnInterval: 0.5

@@ -72,14 +72,14 @@ public class Spawner : MonoBehaviour
 
     private void PrepareWave()
     {
-        _currentWaveIndex = 0;
+
         _enemies = new List<EnemyType>();
         _index = 0;
         _enemiesRemoved = 0;
         _totalEnemiesInWave = 0;
 
-        foreach(var group in CurrentWave.groups) 
-            foreach(var sg in group.subGroups)
+        foreach (var group in CurrentWave.groups)
+            foreach (var sg in group.subGroups)
                 _totalEnemiesInWave += sg.count;
 
         PrepareGroup();
@@ -97,14 +97,14 @@ public class Spawner : MonoBehaviour
         
         var group = CurrentWave.groups[_currentGroupIndex];
 
-        foreach(var sg in group.subGroups)
+        foreach (var sg in group.subGroups)
         {
-            for(int i = 0; i < sg.count; i++)
+            for (int i = 0; i < sg.count; i++)
             {
                 _enemies.Add(sg.enemyType);
             }
         }
-
+        
         for (int i = 0; i < _enemies.Count; i++)
         {
             int r = UnityEngine.Random.Range(0, _enemies.Count);
@@ -120,6 +120,7 @@ public class Spawner : MonoBehaviour
         if (_betweenWaves)
         {
             _waveCooldown -= Time.deltaTime;
+
             if (_waveCooldown <= 0)
             {
                 if (_waveCounter + 1 >= LevelManager.Instance.CurrentLevel.wavesToWin)
@@ -127,12 +128,19 @@ public class Spawner : MonoBehaviour
                     OnMissionComplete?.Invoke();
                     return;
                 }
+
                 _currentWaveIndex = (_currentWaveIndex + 1) % waves.Length;
                 _waveCounter++;
                 OnWaveChanged?.Invoke(_waveCounter);
+                
+                _currentGroupIndex = 0;
+                _enemiesRemoved = 0;
+                
+                PrepareWave();
 
                 _betweenWaves = false;
             }
+
             return;
         }
 

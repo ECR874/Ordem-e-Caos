@@ -71,7 +71,7 @@ public class UIManager : MonoBehaviour
 
     private void UpdateWaveText(int currentWave)
     {
-        WavesText.text = $"cicle: {currentWave + 1}/20";
+        WavesText.text = $"cicle: {currentWave + 1}/10";
         AS.PlayOneShot(WaveBeep);
         AS.Play();
     }
