@@ -10,6 +10,9 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject StartPanel;
     [SerializeField] private GameObject newGameButton;
     [SerializeField] private GameObject quitButton;
+    [SerializeField] private GameObject criation;
+    [SerializeField] private GameObject aura1;
+    [SerializeField] private GameObject aura2;
     
     public void NewGame()
     {
@@ -18,6 +21,10 @@ public class MainMenuManager : MonoBehaviour
         StartPanel.SetActive(true);
         newGameButton.SetActive(false);
         quitButton.SetActive(false);
+        criation.SetActive(true);
+        aura1.SetActive(true);
+        aura2.SetActive(true);
+        
     }
 
     public void QuitGame()
