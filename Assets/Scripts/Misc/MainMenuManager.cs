@@ -21,9 +21,9 @@ public class MainMenuManager : MonoBehaviour
         StartPanel.SetActive(true);
         newGameButton.SetActive(false);
         quitButton.SetActive(false);
-        criation.SetActive(true);
-        aura1.SetActive(true);
-        aura2.SetActive(true);
+        criation.SetActive(false);
+        aura1.SetActive(false);
+        aura2.SetActive(false);
         
     }
 
