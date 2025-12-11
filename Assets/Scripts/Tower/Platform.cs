@@ -6,14 +6,16 @@ public class Platform : MonoBehaviour
 {
     public static event Action<Platform> OnPlatformClicked;
     [SerializeField] private LayerMask platformLayerMask;
-    public static bool towerPanelOpen {get; set;} = false;
+
+    public static bool towerPanelOpen { get; set; } = false;
+
+    private GameObject _currentTower;
 
     private void Update()
     {
         if (towerPanelOpen)
-        {
             return;
-        }
+
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
@@ -30,9 +32,14 @@ public class Platform : MonoBehaviour
         }
     }
 
-    public void PlaceTower(TowerData data)
+    public void PlaceTower(BaseTowerData data)
     {
-        Instantiate(data.prefab, transform.position, Quaternion.identity, transform);
-    }
+        if (_currentTower != null)
+        {
+            Debug.LogWarning("Essa plataforma já tem uma torre.");
+            return;
+        }
 
+        _currentTower = Instantiate(data.prefab, transform.position, Quaternion.identity, transform);
+    }
 }

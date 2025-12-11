@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject towerPanel;
     [SerializeField] private GameObject towerCardPrefab;
     [SerializeField] private Transform cardConatiner;
-    [SerializeField] private TowerData[] towers;
+    [SerializeField] private BaseTowerData[] towers;
     private List<GameObject> activeCards = new List<GameObject>();
     private Platform _currentPlatform;
     [SerializeField] private GameObject noResourcesText;
@@ -202,20 +202,22 @@ public class UIManager : MonoBehaviour
         
     }
 
-    private void HandleTowerSelected(TowerData towerData)
+    private void HandleTowerSelected(BaseTowerData data)
     {
-        if (GameManager.Instance.Resources >= towerData.cost)
+        if (GameManager.Instance.Resources >= data.cost)
         {
-            GameManager.Instance.SpendResources(towerData.cost);
-            _currentPlatform.PlaceTower(towerData);
+            GameManager.Instance.SpendResources(data.cost);
+            
+            _currentPlatform.PlaceTower(data);
         }
         else
         {
             StartCoroutine(ShowNoResourcesMessage());
         }
-        
-        HideTowerPanel(); 
+
+        HideTowerPanel();
     }
+
 
     private IEnumerator ShowNoResourcesMessage()
     {
