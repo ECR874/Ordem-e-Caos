@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -10,7 +11,7 @@ public class GameManager : MonoBehaviour
     public int Resources => _resources;
     public static event Action<int> OnLivesChanged;
     public static event Action<int> OnResourcesChanged;
-
+    
     [SerializeField] public AudioSource AS;
     [SerializeField] public AudioClip Player_Hurt_SFX;
 
@@ -61,7 +62,7 @@ public class GameManager : MonoBehaviour
     {
         AddResources(Mathf.RoundToInt(enemy.Data.resourceReward));
     }
-
+    
     private void AddResources(int amount)
     {
         _resources += amount;
@@ -80,7 +81,7 @@ public class GameManager : MonoBehaviour
         OnLivesChanged?.Invoke(_lives);
         _resources = LevelManager.Instance.CurrentLevel.startingResources;
         OnResourcesChanged?.Invoke(_resources);
-
+        
         SetGameSpeed(1f);
     }
 
@@ -88,12 +89,11 @@ public class GameManager : MonoBehaviour
     {
         ResetGameState();
     }
-
     public void SetTimeScale(float scale)
     {
         Time.timeScale = scale;
     }
-
+    
     public void SpendResources(int amount)
     {
         if (_resources >= amount)
@@ -103,3 +103,4 @@ public class GameManager : MonoBehaviour
         }
     } 
 }
+

@@ -13,7 +13,7 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject criation;
     [SerializeField] private GameObject aura1;
     [SerializeField] private GameObject aura2;
-
+    
     public void NewGame()
     {
         title.enabled = false;
@@ -24,19 +24,19 @@ public class MainMenuManager : MonoBehaviour
         criation.SetActive(false);
         aura1.SetActive(false);
         aura2.SetActive(false);
+        
     }
 
     public void QuitGame()
     {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
             Application.Quit();
-#endif
+        #endif
     }
-
-    public void NewGameText() 
-    {
+    
+    public void NewGameText() {
         LevelManager.Instance.LoadLevel(LevelManager.Instance.levels[0]);
         Time.timeScale = 1f;
     }   
