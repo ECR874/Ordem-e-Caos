@@ -35,6 +35,11 @@ public class Enemy : MonoBehaviour
     
     [SerializeField] private Transform healthBar;
     private Vector3 _healthBarPosition;
+
+    private bool isStunned = false;
+    private float stunTimer = 0f;
+
+    public bool IsStunned => isStunned;
     
     void Awake()
     {
@@ -42,8 +47,8 @@ public class Enemy : MonoBehaviour
         _healthBarPosition = healthBar.localScale;
         spawner = GetComponent<EnemySpawner>();
         speedChanger = GetComponent<SpeedChanger>();
+    }
 
-}
     void OnEnable()
     {
         CurrentWaypoint = 0;
@@ -52,10 +57,18 @@ public class Enemy : MonoBehaviour
         _currentSpeed = data.speed;
         UpdateHealthBar();
         slows.Clear();
+        
+        isStunned = false;
+        stunTimer = 0;
     }
     
     void Update() 
     {
+        HandleStun();
+
+        if (isStunned)
+            return;
+
         UpdateFinalSpeedFromSlows();
         
         transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _currentSpeed * Time.deltaTime);
@@ -108,7 +121,7 @@ public class Enemy : MonoBehaviour
         scale.x = _healthBarPosition.x * healthPercent;
         healthBar.localScale = scale;
     }
-    
+
     public void ApplySlow(int sourceId, float slowPercent)
     {
         if (slows.ContainsKey(sourceId))
@@ -141,4 +154,43 @@ public class Enemy : MonoBehaviour
         
         _currentSpeed = _baseSpeed * (1f - maxSlow);
     }
-} 
+    
+    public void ApplyStun(float duration)
+    {
+        if (!isStunned)
+        {
+            isStunned = true;
+            stunTimer = duration;
+        }
+        else
+        {
+            stunTimer = Mathf.Max(stunTimer, duration);
+        }
+    }
+
+    private void HandleStun()
+    {
+        if (!isStunned)
+            return;
+
+        stunTimer -= Time.deltaTime;
+
+        if (stunTimer <= 0)
+        {
+            isStunned = false;
+            stunTimer = 0;
+        }
+    }
+    public void ForceGoBack(int amount = 1)
+    {
+        CurrentWaypoint -= amount;
+
+        if (CurrentWaypoint < 0)
+            CurrentWaypoint = 0;
+    }
+
+    public void Knockback(Vector3 direction, float distance)
+    {
+        transform.position += direction.normalized * distance;
+    }
+}

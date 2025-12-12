@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fefbe7ac5ece19d4a81542c52788c4ab, type: 3}
   m_Name: BlackHoleTowerData
   m_EditorClassIdentifier: 
+  sprite: {fileID: 1470656459003173202, guid: af931d9931c1a7e458fdad7734cfd9c8, type: 3}
+  cost: 200
+  prefab: {fileID: 6233049858579830917, guid: c88f44ca0c3298d48a350daec34bee5b, type: 3}
   levels:
   - range: 5
     slowPercentage: 0.3

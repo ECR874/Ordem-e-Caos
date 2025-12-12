@@ -1,39 +1,38 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class ObjectPooler : MonoBehaviour
 {
     [SerializeField] private GameObject Prefab;
     [SerializeField] private int poolSize = 5;
-    private List<GameObject> _pool;
-    
+    private List<GameObject> pool;
+
+
     void Start()
     {
-        _pool = new List<GameObject>();
+        pool = new List<GameObject>();
         for (int i = 0; i < poolSize; i++)
-        {
-            CreateNewObject();
-        }
+            CreateObject();
     }
-    
-    private GameObject CreateNewObject()
+
+
+    GameObject CreateObject()
     {
         GameObject obj = Instantiate(Prefab, transform);
         obj.SetActive(false);
-        _pool.Add(obj);
+        pool.Add(obj);
         return obj;
     }
 
+
     public GameObject GetPooledObject()
     {
-        foreach (GameObject obj in _pool)
-        {
+        foreach (var obj in pool)
             if (!obj.activeSelf)
-            {
                 return obj;
-            }
-        }
-        return CreateNewObject();
+
+
+        return CreateObject();
     }
 }

@@ -182,7 +182,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0ab9851d5992e7c4eb3204623ac618b1, type: 2}
   - {fileID: 11400000, guid: d948189fcf74d154eb26bb111487cc3d, type: 2}
   - {fileID: 11400000, guid: 46b10746ee7fa6c4da9f93bd76dee6ab, type: 2}
-  - {fileID: 11400000, guid: e3616c718c1b3f743a3fd14ca30121e8, type: 2}
+  - {fileID: 11400000, guid: 2fe214773bec20f4e8128e32cdeab8a5, type: 2}
   noResourcesText: {fileID: 688242837}
   SpeedButtonsPanel: {fileID: 1014239602}
   speed1Button: {fileID: 41930846}

@@ -1,9 +1,7 @@
 using UnityEngine;
-
-[CreateAssetMenu(fileName = "BaseTowerData", menuName = "Scriptable Objects/BaseTowerData")]
-public abstract class BaseTowerData : ScriptableObject
+public class BaseTowerData : ScriptableObject
 {
+    public GameObject prefab;
     public Sprite sprite;
     public int cost;
-    public GameObject prefab;
 }
